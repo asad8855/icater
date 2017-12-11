@@ -1,15 +1,29 @@
-<h1><em><strong>Welcome to iCater</strong></em></h1>
-<p>Please choose an option below</p>
-<form name="htmlform" method="post" action="html_form_send.php">
-<input type="radio" name="color" value="red" />
-<form action="index.php">
-  <p>    <br />
-  </p>
+<head>
+    <style type="text/css">
+        .auto-style2 {
+            background-color: #FFFFFF;
+        }
+        .auto-style3 {
+            color: #000000;
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+<body background="https://media.istockphoto.com/photos/enjoying-dinner-with-friends-picture-id500516612?k=6&m=500516612&s=612x612&w=0&h=FRPjDK9iM8YUfYsUmQtndxJe5jQ1C8-XVcou5OSyJ1Q=">
+
+
+<h1 style="back" class="auto-style3"><em><strong><span class="auto-style2">Welcome to iCater</span></strong></em></h1>
+<p class="auto-style3"><strong><span class="auto-style2">Please choose an option below</span></strong></p>
+    <form action="">
+        <strong>
+  <input type="radio" name="Category" value="male"> <span class="auto-style2">Client</span><br>
+  <input type="radio" name="category" value="female"> <span class="auto-style2">Restaurant</span></strong><br>
+ </form>
 </form><table width="450px">
 </tr>
 <tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
+ <td valign="top" class="auto-style2">
+  <label for="first_name"><strong>First Name *</strong></label><strong> </strong>
  </td>
  <td valign="top">
   <input  type="text" name="first_name" maxlength="50" size="30">
@@ -17,16 +31,16 @@
 </tr>
  
 <tr>
- <td valign="top"">
-  <label for="last_name">Last Name *</label>
+ <td valign="top"" class="auto-style2">
+  <label for="last_name"><strong>Last Name *</strong></label><strong> </strong>
  </td>
  <td valign="top">
   <input  type="text" name="last_name" maxlength="50" size="30">
  </td>
 </tr>
 <tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
+ <td valign="top" class="auto-style2">
+  <label for="email"><strong>Email Address *</strong></label><strong> </strong>
  </td>
  <td valign="top">
   <input  type="text" name="email" maxlength="80" size="30">
@@ -34,23 +48,23 @@
  
 </tr>
 <tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
+ <td valign="top" class="auto-style2">
+  <label for="telephone"><strong>Telephone Number</strong></label><strong> </strong>
  </td>
  <td valign="top">
   <input  type="text" name="telephone" maxlength="30" size="30">
  </td>
 </tr>
 <tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
+ <td valign="top" class="auto-style2">
+  <label for="comments"><strong>Comments *</strong></label><strong> </strong>
  </td>
  <td valign="top">
   <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
  </td>
  
 </tr>
-<tr>
  <td colspan="2" style="text-align:center">
   <input type="submit" value="Submit">  
  </td>
+    </body>
