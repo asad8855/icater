@@ -1,0 +1,72 @@
+<head>
+    <style type="text/css">
+        .auto-style2 {
+            background-color: #FFFFFF;
+        }
+        .auto-style3 {
+            color: #000000;
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+
+
+<h1 style="back" class="auto-style3"><em><strong><span class="auto-style2">Thank you for choosing iCater</span></strong></em></h1>
+    <p>
+        <br />
+    </p>
+</form><table width="450px">
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+     <label for="first_name"><strong>Card Type *</strong></label><strong> </strong>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"" class="auto-style2">
+  <label for="last_name"><strong>Cardholder Name *</strong></label><strong> </strong>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+     <label for="email"><strong>Card Number *</strong></label><strong> </strong>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+     <label for="telephone"><strong>
+     <label for="email">Expiration Date *</label></strong></label></td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+     <label for="comments"><strong>CSV *</strong></label><strong> </strong>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone0" maxlength="30" size="30">
+ </td>
+ 
+</tr>
+ <td colspan="2" style="text-align:center">
+     <br />
+     <br />
+  <input type="submit" value="Submit">  
+ </td>
+        <tr>
+ <td colspan="2" style="text-align:center">
+     &nbsp;</td>
+        </tr>
+  
