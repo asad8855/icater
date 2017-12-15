@@ -1,0 +1,79 @@
+<head>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            text-align: left;
+        }
+        .auto-style3 {
+            text-align: center;
+            width: 546px;
+        }
+    </style>
+</head>
+
+<h1 class="auto-style1"><em><strong>Delivery Information</strong></em></h1>
+
+<form action="	Thank you for info sharing.html">
+    <p class="auto-style1">&nbsp;</p>
+  <table class="auto-style3" align="center">
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Street_name">Street Name *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="street_name" maxlength="70" size="50">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top"" class="auto-style2">
+  <label for="street_number">Street Number *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="number" name="street_number" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="city">City *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="City" maxlength="50" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="State">State</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="state" maxlength="70" size="50">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Zip_Code">Zip Code</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="number" name="zip_code" maxlength="40" size="20">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="comments">Special Instructions *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2">
+  <input type="submit" value="Submit">  
+ </td>
+</tr>
+</table>
+</form>
