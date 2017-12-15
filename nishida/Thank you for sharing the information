@@ -1,0 +1,24 @@
+<head>
+    <style type="text/css">
+        .auto-style2 {
+            background-color: #FFFFFF;
+        }
+        .auto-style3 {
+            color: #000000;
+            background-blend-mode: lighten;
+        }
+    </style>
+</head>
+
+
+    <h1 style="back" class="auto-style3"><strong><span class="auto-style2">Thank you for sharing the information</span></strong></h1>
+    <p style="back">&nbsp;</p>
+    <p style="back"><a href="Welcome Page.html">Go back to home</a></p>
+    <p style="back">&nbsp;</p>
+    <p style="back">&nbsp;</p>
+    <p>&nbsp;</p>
+      <td colspan="2" style="text-align:center">&nbsp;</td>
+    <tr>
+ <td colspan="2" style="text-align:center">&nbsp;
+     </td>
+        </tr>
