@@ -1,20 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-        <title>iCater - Seamless for Catering</title>
-		        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-        
-        <!-- Google Web Font Embed -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css">
-		<link href="https://fonts.googleapis.com/css?
-		family=Raleway" rel="stylesheet" type="text/css">
-        
-        <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-		
-<style type="text/css">
+  <html>
+   <head>
+    <style type="text/css">
 		body {
 			background-color: #F8DCD0; 
 		}
@@ -28,29 +15,70 @@
             text-align: center;
             width: 546px;
         }
-    .client-signup {
-}
-</style>
+    </style>
 </head>
+	  
+<body onload= "myFunction()">
+<script type="text/javascript">
+function myFunction() {
+    document.getElementById('Client Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Home').style.display = 'none';
+	document.getElementById('Delivery Info Page').style.display = 'none';
+	document.getElementById('Check out page').style.display = 'none';
+	document.getElementById('Thank you for info sharing').style.display = 'none';
+	document.getElementById('Home').style.display = '';
+}
 	
-<body>
-	<div class="auto-style1" id="welcome-both">
-		<h1 class="auto-style1"><em><strong>Welcome to iCater </strong></em> </h1>
+function clientSignup() {
+    document.getElementById('Client Sign Up').style.display = '';
+	document.getElementById('Restaurant Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Home').style.display = 'none';
+	document.getElementById('Delivery Info Page').style.display = 'none';
+	document.getElementById('Check out page').style.display = 'none';
+	document.getElementById('Thank you for info sharing').style.display = 'none';
+	document.getElementById('Home').style.display = 'none';
+}
 
-		<h2 class="auto-style1"><em><strong>please choose an option below </strong></em> </h2>   
+function restSignup() {
+    document.getElementById('Client Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Sign Up').style.display = '';
+	document.getElementById('Restaurant Home').style.display = 'none';
+	document.getElementById('Delivery Info Page').style.display = 'none';
+	document.getElementById('Check out page').style.display = 'none';
+	document.getElementById('Thank you for info sharing').style.display = 'none';
+	document.getElementById('Home').style.display = 'none';
+}
+	
+function clientSubmit() {
+    document.getElementById('Client Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Sign Up').style.display = 'none';
+	document.getElementById('Restaurant Home').style.display = '';
+	document.getElementById('Delivery Info Page').style.display = 'none';
+	document.getElementById('Check out page').style.display = 'none';
+	document.getElementById('Thank you for info sharing').style.display = 'none';
+	document.getElementById('Home').style.display = 'none';
+}
+	
+	</script>
+	
+<div id="Home" class="auto-style1">
+<h1 class="auto-style1"><em><strong>Welcome to iCater </strong></em> </h1>
+
+<h2 class="auto-style1"><em><strong>please choose an option below </strong></em> </h2>
+     
     <p class="auto-style1">&nbsp;</p>
-  	<table class="auto-style3" align="center">
-   	<strong>
-	   <tr> <td> <h3><a href="#client-signup" class="auto-style2">Client<br>
-    </a></h3></td></tr>
-    <tr> <td> <h3><a href="Restaurant Sign Up.html" name="Category" value="Restaurant" class="auto-style2">Restaurant </a></h3></td></tr></strong><br>
+  <table class="auto-style3" align="center">
+	 </table>  
+	   <tr> <td> <h3><a href="#Client Sign Up" name="Category" onClick="return clientSignup('Client Sign Up')" value="Client" class="auto-style2">Client<br>
+	      </a></h3></td></tr>
+    <tr> <td> <h3><a href="#Restaurant Sign Up" name="Category" onClick= "return restSignup('Restaurant Sign Up')" value="Restaurant" class="auto-style2">Restaurant </a></h3></td></tr><br>
 	
-  		</table>
-			</div>
+	  	  </div>
 
-  <h1 class="auto-style1"><em><strong>Restaurant Sign Up</strong></em></h1>
+ <div id="Restaurant Sign Up"><h1 class="auto-style1"><em><strong>Restaurant Sign Up</strong></em></h1>
 
-<form action="Restaurant Home.html" method="get">
+<form action="#Restaurant Home" method="get">
     <p class="auto-style1">    <br />
   </p>
 <table class="auto-style3" align="center">
@@ -91,21 +119,21 @@
 </tr>
 <tr>
  <td colspan="2">
-  <input type="Submit" value="Sign Up">  
+<input type="Submit" value="Sign Up">  
  </td>
 </tr>
 </table>
 </form>
+   </div> 
    
-<div class="auto-style1" id="client-signup">
-   <h1 class="auto-style1"><em><strong>Client Sign Up</strong></em></h1>
+ <div id="Client Sign Up"> <h1 class="auto-style1"><em><strong>Client Sign Up</strong></em></h1> 
 
-	<form action="Restaurant Home.html" method="get">
+<form action="#Restaurant Home" method="get">
     <p class="auto-style1">    <br />
-  	</p>
-		<table class="auto-style3" align="center">
+  </p>
+<table class="auto-style3" align="center">
 
-	<tr>
+<tr>
  <td valign="top" class="auto-style2">
   <label for="Name">Name *</label>
  </td>
@@ -147,12 +175,9 @@
 </tr>
 </table>
 </form>
-</div>
+ </div>  
 	
-	
-	
-   
-    <p class="auto-style1">   
+  <div id="Restaurant Home"> <p class="auto-style1">   
   </p>
   <table width="868" align="center" class="auto-style3">
   <tr>
@@ -183,11 +208,10 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
 </table>
-
     <p class="auto-style1">   
   </p>
   <table width="868" align="center" class="auto-style3">
@@ -219,7 +243,7 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
 </table>
@@ -256,15 +280,16 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
-</table><br>
-  
-  
+</table>
+	  	</div>
+ 
+  <div id="Delivery Info Page">
 <h1 class="auto-style1"><em><strong>Delivery Information</strong></em></h1>
 
-<form action="Check out page .html" method="get">
+<form action="#Check out page" method="get">
     <p class="auto-style1">    <br />
   </p>
 <table class="auto-style3" align="center">
@@ -326,11 +351,12 @@
 </tr>
 </table>
 </form>
-  
+	  </div>
+ <div id="Check out page"> 
   <h1 class="auto-style1">Card Information
 </h1>
 
-<form action="Thank you for info sharing.html" method="get">
+<form action="#Thank you for info sharing" method="get">
   
    <p class="auto-style1">    <br />
   </p>
@@ -374,21 +400,21 @@
  </td>
  </tr>
  
- <td colspan="2" style="text-align:center">
-     <br />
-     <br />
-  <input type="Submit" value="Submit">  
+ <td colspan="2" style="text-align:center"><br>
+ <input type="Submit" value="Submit">  
  </td>
         <tr>
  <td colspan="2" style="text-align:center">&nbsp;
      </td>
         </tr>
 	</table></form>
-
-<h1 class="auto-style1"><em><strong>Thank you for choosing iCater</strong></em></h1>
+	</div>
+	
+<div id="Thank you for info sharing">
+ <h1 class="auto-style1"><em><strong>Thank you for choosing iCater</strong></em></h1>
   <h1 style="back" class="auto-style3"><strong><span class="auto-style2">Thank you for sharing the information</span></strong></h1>
     <p style="back">&nbsp;</p>
-    <p style="back"><a href="Restaurant Home.html">Go back to home</a></p>
+    <p style="back"><a href="#Restaurant Home">Go back to home</a></p>
     <p style="back">&nbsp;</p>
     <p style="back">&nbsp;</p>
     <p>&nbsp;</p>
@@ -397,5 +423,6 @@
  <td colspan="2" style="text-align:center">&nbsp;
      </td>
         </tr>
+        </div>
   </body>
 	  </html>
