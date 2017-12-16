@@ -21,22 +21,18 @@
 <h1 class="auto-style1"><em><strong>Welcome to iCater </strong></em> </h1>
 
 <h2 class="auto-style1"><em><strong>please choose an option below </strong></em> </h2>
-
-<form action="Thank you for info sharing.html">
      
     <p class="auto-style1">&nbsp;</p>
   <table class="auto-style3" align="center">
    <strong>
-	   <tr> <td> <h3><a href="Client Sign Up.html" name="Category" value="Client" class="auto-style2">Client<br>
-    </a></h3></td></tr>
-    <tr> <td> <h3><a href="Restaurant Sign Up.html" name="Category" value="Restaurant" class="auto-style2">Restaurant </a></h3></td></tr></strong><br>
+	   <tr> <td> <h3><a href="#Client Sign Up" name="Category" value="Client" class="auto-style2">Client<br>
+	      </a></h3></td></tr>
+    <tr> <td> <h3><a href="#Restaurant Sign Up" name="Category" value="Restaurant" class="auto-style2">Restaurant </a></h3></td></tr></strong><br>
 	
   </table>
-</form>
+ <div id="Restaurant Sign Up"><h1 class="auto-style1"><em><strong>Restaurant Sign Up</strong></em></h1>
 
-  <h1 class="auto-style1"><em><strong>Restaurant Sign Up</strong></em></h1>
-
-<form action="Restaurant Home.html" method="get">
+<form action="#Restaurant Home" method="get">
     <p class="auto-style1">    <br />
   </p>
 <table class="auto-style3" align="center">
@@ -77,15 +73,16 @@
 </tr>
 <tr>
  <td colspan="2">
-  <input type="Submit" value="Sign Up">  
+<input type="Submit" value="Sign Up">  
  </td>
 </tr>
 </table>
 </form>
+   </div> 
    
-   <h1 class="auto-style1"><em><strong>Client Sign Up</strong></em></h1>
+ <div id="Client Sign Up"> <h1 class="auto-style1"><em><strong>Client Sign Up</strong></em></h1> 
 
-<form action="Restaurant Home.html" method="get">
+<form action="#Restaurant Home" method="get">
     <p class="auto-style1">    <br />
   </p>
 <table class="auto-style3" align="center">
@@ -132,8 +129,8 @@
 </tr>
 </table>
 </form>
-   
-    <p class="auto-style1">   
+ </div>  
+  <div id="Restaurant Home"> <p class="auto-style1">   
   </p>
   <table width="868" align="center" class="auto-style3">
   <tr>
@@ -164,11 +161,12 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
 </table>
-
+	</div>
+   
     <p class="auto-style1">   
   </p>
   <table width="868" align="center" class="auto-style3">
@@ -200,7 +198,7 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
 </table>
@@ -237,16 +235,16 @@
 </tr>
 <tr>
  <td valign="top" class="auto-style2">
-  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+  <label for="Checkout"> <a href="#Delivery Info Page">Checkout</a> </label>
  </td>
 </tr>
 </table>
 	</form>
-  
-  
+ 
+  <div id="Delivery Info Page">
 <h1 class="auto-style1"><em><strong>Delivery Information</strong></em></h1>
 
-<form action="Check out page .html" method="get">
+<form action="#Check out page" method="get">
     <p class="auto-style1">    <br />
   </p>
 <table class="auto-style3" align="center">
@@ -308,11 +306,12 @@
 </tr>
 </table>
 </form>
-  
+	  </div>
+ <div id="Check out page"> 
   <h1 class="auto-style1">Card Information
 </h1>
 
-<form action="Thank you for info sharing.html" method="get">
+<form action="#Thank you for info sharing" method="get">
   
    <p class="auto-style1">    <br />
   </p>
@@ -356,21 +355,21 @@
  </td>
  </tr>
  
- <td colspan="2" style="text-align:center">
-     <br />
-     <br />
-  <input type="Submit" value="Submit">  
+ <td colspan="2" style="text-align:center"><br>
+ <input type="Submit" value="Submit">  
  </td>
         <tr>
  <td colspan="2" style="text-align:center">&nbsp;
      </td>
         </tr>
 	</table></form>
-
-<h1 class="auto-style1"><em><strong>Thank you for choosing iCater</strong></em></h1>
+	</div>
+	
+<div id="Thank you for info sharing">
+ <h1 class="auto-style1"><em><strong>Thank you for choosing iCater</strong></em></h1>
   <h1 style="back" class="auto-style3"><strong><span class="auto-style2">Thank you for sharing the information</span></strong></h1>
     <p style="back">&nbsp;</p>
-    <p style="back"><a href="Restaurant Home.html">Go back to home</a></p>
+    <p style="back"><a href="#Restaurant Home">Go back to home</a></p>
     <p style="back">&nbsp;</p>
     <p style="back">&nbsp;</p>
     <p>&nbsp;</p>
@@ -379,5 +378,6 @@
  <td colspan="2" style="text-align:center">&nbsp;
      </td>
         </tr>
+        </div>
   </body>
 	  </html>
