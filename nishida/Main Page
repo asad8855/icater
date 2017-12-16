@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+  <html>
+   <head>
+    <style type="text/css">
+		body {
+			background-color: #F8DCD0; 
+		}
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            text-align: center;
+        }
+        .auto-style3 {
+            text-align: center;
+            width: 546px;
+        }
+    </style>
+</head>
+<body>
+<h1 class="auto-style1"><em><strong>Welcome to iCater </strong></em> </h1>
+
+<h2 class="auto-style1"><em><strong>please choose an option below </strong></em> </h2>
+
+<form action="Thank you for info sharing.html">
+     
+    <p class="auto-style1">&nbsp;</p>
+  <table class="auto-style3" align="center">
+   <strong>
+	   <tr> <td> <h3><a href="Client Sign Up.html" name="Category" value="Client" class="auto-style2">Client<br>
+    </a></h3></td></tr>
+    <tr> <td> <h3><a href="Restaurant Sign Up.html" name="Category" value="Restaurant" class="auto-style2">Restaurant </a></h3></td></tr></strong><br>
+	
+  </table>
+</form>
+
+  <h1 class="auto-style1"><em><strong>Restaurant Sign Up</strong></em></h1>
+
+<form action="Restaurant Home.html" method="get">
+    <p class="auto-style1">    <br />
+  </p>
+<table class="auto-style3" align="center">
+
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Name">Restaurant Name*</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="name" maxlength="70" size="50">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="email">Email*</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="email" maxlength="60" size="40">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="password"> Password *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="password" maxlength="50" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Re-enter_Password">Re-enter Password * </label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="Re-enter_Password" maxlength="70" size="50">
+ </td>
+</tr>
+<tr>
+ <td colspan="2">
+  <input type="Submit" value="Sign Up">  
+ </td>
+</tr>
+</table>
+</form>
+   
+   <h1 class="auto-style1"><em><strong>Client Sign Up</strong></em></h1>
+
+<form action="Restaurant Home.html" method="get">
+    <p class="auto-style1">    <br />
+  </p>
+<table class="auto-style3" align="center">
+
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Name">Name *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="name" maxlength="70" size="50">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="email">Email*</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="email" maxlength="60" size="40">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="password"> Password *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="password" maxlength="50" size="30">
+ </td>
+</tr>
+
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Re-enter_Password">Re-enter Password * </label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="Re-enter_Password" maxlength="70" size="50">
+ </td>
+</tr>
+<tr>
+ <td colspan="2">
+  <input type="Submit" value="Sign Up">  
+ </td>
+</tr>
+</table>
+</form>
+   
+    <p class="auto-style1">   
+  </p>
+  <table width="868" align="center" class="auto-style3">
+  <tr>
+ <td valign="top" class="auto-style2">
+   <img src="https://upload.wikimedia.org/wikipedia/en/5/56/Logo_Eataly.png">
+ </td>
+ </tr>
+ 
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Restaurant_Name"> EATALY </label>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Cuisine">Italian</label>
+ </td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="price"> $$$ </label></td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Website"> <a href="https://www.eataly.com/">Website</a> </label>
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+ </td>
+</tr>
+</table>
+
+    <p class="auto-style1">   
+  </p>
+  <table width="868" align="center" class="auto-style3">
+  <tr>
+ <td valign="top" class="auto-style2">
+   <img src="https://cdn.doordash.com/media/restaurant/cover/Sweet-Green.png" height="206">
+ </td>
+ </tr>
+ 
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Restaurant_Name"> SWEETGREEN </label>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Cuisine">Salads</label>
+ </td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="price"> $$ </label></td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Website"> <a href="http://www.sweetgreen.com/">Website</a> </label>
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+ </td>
+</tr>
+</table>
+
+    <p class="auto-style1">   
+  </p>
+  <table width="868" align="center" class="auto-style3"><br><br><br>
+  <tr>
+ <td valign="top" class="auto-style2">
+   <p><img src="https://cdn.doordash.com/media/restaurant/cover/maxbrenner.png">
+   </p>
+   <p>&nbsp;</p></td>
+ </tr>
+
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Restaurant_Name"> MAX BRENER </label>
+ </td>
+ </tr>
+ 
+ <tr>
+ <td valign="top" class="auto-style2">
+  <label for="Cuisine">Mexican</label>
+ </td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="price"> $$$ </label></td>
+ </tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Website"> <a href="http://maxbrenner.com/">Website</a> </label>
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Checkout"> <a href="Delivery Info Page.html">Checkout</a> </label>
+ </td>
+</tr>
+</table>
+	</form>
+  
+  
+<h1 class="auto-style1"><em><strong>Delivery Information</strong></em></h1>
+
+<form action="Check out page .html" method="get">
+    <p class="auto-style1">    <br />
+  </p>
+<table class="auto-style3" align="center">
+
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Street_name">Street Name *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="street_name" maxlength="70" size="50">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top" class="auto-style2">
+	 <label for="street_number">Street Number *</label></td>
+ <td valign="top" class="auto-style2">
+  <input  type="number" name="street_number" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="city">City *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="City" maxlength="50" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="State">State</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="text" name="state" maxlength="70" size="50">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="Zip_Code">Zip Code</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <input  type="number" name="zip_code" maxlength="40" size="20">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+  <label for="comments">Special Instructions *</label>
+ </td>
+ <td valign="top" class="auto-style2">
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2">
+  <input type="submit" value="Submit">  
+ </td>
+</tr>
+</table>
+</form>
+  
+  <h1 class="auto-style1">Card Information
+</h1>
+
+<form action="Thank you for info sharing.html" method="get">
+  
+   <p class="auto-style1">    <br />
+  </p>
+<table class="auto-style3" align="center">
+			<tr>
+  <td valign="top" class="auto-style2">
+    <label for="first_name"><strong>Card Type *</strong></label> </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+ 
+<tr>
+ <td valign="top" class="auto-style2">
+   <label for="last_name"><strong>Cardholder Name *</strong></label> </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+    <label for="email"><strong>Card Number *</strong></label> </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top" class="auto-style2">
+	 <label for="telephone"> <strong>Expiration* </strong></label> </td> 
+      <td valign="top">
+<input  type="text" name="telephone" maxlength="30" size="30">
+      </td>
+       </tr>
+
+<tr>
+ <td valign="top" class="auto-style2">
+    <label for="comments"><strong>CSV *</strong></label> </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+ </tr>
+ 
+ <td colspan="2" style="text-align:center">
+     <br />
+     <br />
+  <input type="Submit" value="Submit">  
+ </td>
+        <tr>
+ <td colspan="2" style="text-align:center">&nbsp;
+     </td>
+        </tr>
+	</table></form>
+
+<h1 class="auto-style1"><em><strong>Thank you for choosing iCater</strong></em></h1>
+  <h1 style="back" class="auto-style3"><strong><span class="auto-style2">Thank you for sharing the information</span></strong></h1>
+    <p style="back">&nbsp;</p>
+    <p style="back"><a href="Restaurant Home.html">Go back to home</a></p>
+    <p style="back">&nbsp;</p>
+    <p style="back">&nbsp;</p>
+    <p>&nbsp;</p>
+      <td colspan="2" style="text-align:center">&nbsp;</td>
+    <tr>
+ <td colspan="2" style="text-align:center">&nbsp;
+     </td>
+        </tr>
+  </body>
+	  </html>
