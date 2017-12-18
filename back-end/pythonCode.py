@@ -44,12 +44,8 @@ def menus(rest_id):
     restaurant_menu = cursor.fetchall()
     cursor.close()
     error = None
-    if(restaurant_menu):
-        return render_template('index.html', posts = restaurant_menu, message = globUser)
-    else:
-        error = "Sorry, no upcoming events"
-        return render_template('index.html', errorUpcoming = error, message = globUser)
-     
+    return render_template('index.html', posts = restaurant_menu)
+
 @app.route('/user_reg' , methods=['GET', 'POST'])
 def user_reg():
     #grab information from register page
