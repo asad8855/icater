@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rate Events</title>
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        td {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>Here are the events that already started:</p>
+    {%if posts%}
+    <table class="generic-table events_table">
+        <th>Title</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Description</th>
+        <th>Location</th> <!--location name-->
+        <th>Zipcode</th> <!--location zipcode-->
+        <th>Rating</th> <!--average rating-->
+        {% for line in posts %}
+        <tr>
+            <td>{{line.title}}</td>
+            <td>{{line.start_time}}</td>
+            <td>{{line.end_time}}</td>
+            <td>{{line.description}}</td>
+            <td>{{line.location_name}}</td>
+            <td>{{line.zipcode}}</td>
+            <td>{{line.average_ratings}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+
+    {%if error%}
+    <p>{{error}}</p>
+    {% endif %}
+
+    <h2>Pick an event and rate it</h2>
+    <form action="/rate_event" method="POST">
+        <input type="text" name="event_id" placeholder="type an event's id here" required />
+        <select name="rating">
+            <option value=0>0 stars</option>
+            <option value=1>1 stars</option>
+            <option value=2>2 stars</option>
+            <option value=3>3 stars</option>
+            <option value=4>4 stars</option>
+            <option value=5>5 stars</option>
+        </select>
+        <input type="submit" value="Rate" />
+    </form>
+    <a href="/">Home</a><br/>
+    <a href="/home">My FindFolks</a><br/>
+    <a href="/logout">Logout</a><br/>
+</body>
+</html>
