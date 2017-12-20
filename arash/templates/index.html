@@ -260,7 +260,7 @@ function menu() {
 	
   <div id="Restaurant Home"> <p class="auto-style1,div4">   
  
-      	{% for line in posts %}
+      	{% for line in restaurants %}
         <div>
   
   <table width="868" align="center" class="auto-style3">
@@ -312,11 +312,12 @@ function menu() {
         <th>Name</th>
         <th>Description</th>
         <th>Price</th>
-        {% for line in posts %}
+        {% for line in menus %}
         <tr>
             <td>{{line.item_name}}</td>
             <td>{{line.item_description}}</td>
             <td>{{line.item_price}}</td>
+	    <td><input  type="text" name="Quantity" maxlength="5" size="5"></td>
         </tr>
         {% endfor %}
     </table>
@@ -327,13 +328,6 @@ function menu() {
  </td>
 </tr>
 </div>
-
-
-
-
-
-
-
 
 
  
